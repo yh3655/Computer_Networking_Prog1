@@ -5,7 +5,7 @@ def webServer(port=6789):
     serverSocket = socket(AF_INET, SOCK_STREAM) #Prepare a server socket
     #Fill in start
     #HOST = '192.168.31.230'
-    serverSocket.bind(("192.168.31.230",port))
+    serverSocket.bind(("",port))
     serverSocket.listen()
     #Fill in end
     while True:
