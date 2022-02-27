@@ -6,7 +6,7 @@ def webServer(port=6789):
     #Fill in start
     #HOST = '192.168.31.230'
     serverSocket.bind(("",port))
-    serverSocket.listen()
+    serverSocket.listen(5)
     #Fill in end
     while True:
         #Establish the connection
